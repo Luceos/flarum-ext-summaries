@@ -16,7 +16,4 @@ use Illuminate\Contracts\Events\Dispatcher;
 return function (Dispatcher $events) {
     $events->subscribe(Listener\AddApiAttributes::class);
     $events->subscribe(Listener\AddClientAssets::class);
-    $events->subscribe(Listener\CreatePostWhenDiscussionIsStickied::class);
-    $events->subscribe(Listener\PinStickiedDiscussionsToTop::class);
-    $events->subscribe(Listener\SaveStickyToDatabase::class);
 };

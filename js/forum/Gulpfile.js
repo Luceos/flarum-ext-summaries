@@ -2,6 +2,6 @@ var gulp = require('flarum-gulp');
 
 gulp({
   modules: {
-    'flarum/sticky': 'src/**/*.js'
+    'jordanjay29/summaries': 'src/**/*.js'
   }
 });

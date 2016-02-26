@@ -1,17 +1,8 @@
 import { extend, notificationType } from 'flarum/extend';
 import app from 'flarum/app';
-import Model from 'flarum/Model';
-import Discussion from 'flarum/models/Discussion';
 
-import addStickyExcerpt from 'flarum/sticky/addStickyExcerpt';
+import addStickyExcerpt from 'jordanjay29/summaries/addSummaryExcerpt';
 
-app.initializers.add('flarum-summary', () => {
-  app.postComponents.discussionStickied = DiscussionStickiedPost;
-
-  Discussion.prototype.isSticky = Model.attribute('isSticky');
-  Discussion.prototype.canSticky = Model.attribute('canSticky');
-
-  addStickyBadge();
-  addStickyControl();
+app.initializers.add('jordanjay29-summaries', () => {
   addSummaryExcerpt();
 });
