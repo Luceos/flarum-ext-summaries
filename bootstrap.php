@@ -10,7 +10,8 @@
  * file that was distributed with this source code.
  */
 
-use Flarum\Sticky\Listener;
+namespace JordanJay29\Summaries;
+
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {

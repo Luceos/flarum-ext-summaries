@@ -43,7 +43,7 @@ System.register('jordanjay29/summaries/addSummaryExcerpt', ['flarum/extend', 'fl
 System.register('jordanjay29/summaries/main', ['flarum/extend', 'flarum/app', 'jordanjay29/summaries/addSummaryExcerpt'], function (_export) {
   'use strict';
 
-  var extend, notificationType, app, addStickyExcerpt;
+  var extend, notificationType, app, addSummaryExcerpt;
   return {
     setters: [function (_flarumExtend) {
       extend = _flarumExtend.extend;
@@ -51,7 +51,7 @@ System.register('jordanjay29/summaries/main', ['flarum/extend', 'flarum/app', 'j
     }, function (_flarumApp) {
       app = _flarumApp['default'];
     }, function (_jordanjay29SummariesAddSummaryExcerpt) {
-      addStickyExcerpt = _jordanjay29SummariesAddSummaryExcerpt['default'];
+      addSummaryExcerpt = _jordanjay29SummariesAddSummaryExcerpt['default'];
     }],
     execute: function () {
 

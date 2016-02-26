@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jordanjay29\\Summaries\\": "src/"
+            "JordanJay29\\Summaries\\": "src/"
         }
     },
     "extra": {

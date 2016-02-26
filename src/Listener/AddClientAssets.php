@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Flarum\Sticky\Listener;
+namespace JordanJay29\Summaries\Listener;
 
 use Flarum\Event\ConfigureClientView;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -34,7 +34,7 @@ class AddClientAssets
                 __DIR__.'/../../js/forum/dist/extension.js',
                 __DIR__.'/../../less/forum/extension.less'
             ]);
-            $event->addBootstrapper('flarum/sticky/main');
+            $event->addBootstrapper('jordanjay29/summaries/main');
         }
     }
 }

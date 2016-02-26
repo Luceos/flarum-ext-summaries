@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Flarum\Sticky\Listener;
+namespace JordanJay29\Summaries\Listener;
 
 use Flarum\Api\Controller\ListDiscussionsController;
 use Flarum\Event\ConfigureApiController;
