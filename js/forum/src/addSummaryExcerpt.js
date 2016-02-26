@@ -3,7 +3,7 @@ import DiscussionList from 'flarum/components/DiscussionList';
 import DiscussionListItem from 'flarum/components/DiscussionListItem';
 import { truncate } from 'flarum/utils/string';
 
-export default function addStickyControl() {
+export default function addSummaryExcerpt() {
   extend(DiscussionList.prototype, 'requestParams', function(params) {
     params.include.push('startPost');
   });
@@ -11,14 +11,12 @@ export default function addStickyControl() {
   extend(DiscussionListItem.prototype, 'infoItems', function(items) {
     const discussion = this.props.discussion;
 
-    if (discussion.isSticky()) {
-      const startPost = discussion.startPost();
+    const startPost = discussion.startPost();
 
-      if (startPost) {
-        const excerpt = <span>{truncate(startPost.contentPlain(), 200)}</span>;
+    if (startPost) {
+      const excerpt = <span>{truncate(startPost.contentPlain(), 200)}</span>;
 
-        items.add('excerpt', excerpt, -100);
-      }
+      items.add('excerpt', excerpt, -100);
     }
   });
 }
