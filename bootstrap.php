@@ -1,9 +1,10 @@
 <?php
 
-/*
- * This file is part of Flarum.
+/* This is part of the jordanjay/flarum-ext-summaries project.
+ * 
+ * Modified code (c)2016 Jordan Schnaidt
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
+ * Original code (c) Toby Zerner <toby.zerner@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
