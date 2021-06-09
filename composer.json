@@ -1,5 +1,5 @@
 {
-    "name": "flarum/sticky",
+    "name": "flarum/supersticky",
     "description": "Pin discussions to the top of the list.",
     "type": "flarum-extension",
     "keywords": ["discussion"],
@@ -29,7 +29,7 @@
             "dev-master": "1.x-dev"
         },
         "flarum-extension": {
-            "title": "Sticky",
+            "title": "Superssticky",
             "category": "feature",
             "icon": {
                 "name": "fas fa-thumbtack",
