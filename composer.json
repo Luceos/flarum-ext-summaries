@@ -5,17 +5,10 @@
     "keywords": ["discussion"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/flarum/core/issues",
-        "source": "https://github.com/flarum/sticky",
-        "forum": "https://discuss.flarum.org"
+        "issues": "https://github.com/PeopleInside/supersticky/issues",
+        "source": "https://github.com/PeopleInside/supersticky", 
     },
-    "homepage": "https://flarum.org",
-    "funding": [
-        {
-            "type": "website",
-            "url": "https://flarum.org/donate/"
-        }
-    ],
+
     "require": {
         "flarum/core": "^1.0"
     },
