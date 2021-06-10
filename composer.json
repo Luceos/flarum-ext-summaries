@@ -10,8 +10,7 @@
         "conflict": {
         "flarum/sticky": "*"
                     }
-    
-    },
+     },
 
     "require": {
         "flarum/core": "^1.0"
