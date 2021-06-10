@@ -7,11 +7,10 @@
     "support": {
         "issues": "https://github.com/PeopleInside/supersticky/issues",
         "source": "https://github.com/PeopleInside/supersticky",
-        "conflict": {
+    },
+    "conflict": {
         "flarum/sticky": "*"
-                    }
-     },
-
+    }
     "require": {
         "flarum/core": "^1.0"
     },
