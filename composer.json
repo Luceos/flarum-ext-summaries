@@ -7,6 +7,11 @@
     "support": {
         "issues": "https://github.com/PeopleInside/supersticky/issues",
         "source": "https://github.com/PeopleInside/supersticky", 
+        {
+    // .. other stuff
+    "conflict": {
+        "flarum/sticky": "*"
+    }
     },
 
     "require": {
@@ -17,11 +22,6 @@
             "Flarum\\Sticky\\": "src/"
         }
     },
-  {
-    // .. other stuff
-    "conflict": {
-        "flarum/sticky": "*"
-    }
 },
     "extra": {
         "branch-alias": {
