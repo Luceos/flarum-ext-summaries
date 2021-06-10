@@ -1,5 +1,5 @@
 {
-    "name": "flarum/supersticky",
+    "name": "PeopleInside/supersticky",
     "description": "Pin discussions to the top of the list.",
     "type": "flarum-extension",
     "keywords": ["discussion"],
@@ -17,6 +17,13 @@
             "Flarum\\Sticky\\": "src/"
         }
     },
+  
+  {
+    // .. other stuff
+    "conflict": {
+        "flarum/sticky": "*"
+    }
+},
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
