@@ -6,13 +6,10 @@
     "license": "MIT",
     "support": {
         "issues": "https://github.com/PeopleInside/supersticky/issues",
-        "source": "https://github.com/PeopleInside/supersticky", 
-    
-    
-    // .. other stuff
-    "conflict": {
+        "source": "https://github.com/PeopleInside/supersticky",
+        "conflict": {
         "flarum/sticky": "*"
-    }
+                    }
     
     },
 
